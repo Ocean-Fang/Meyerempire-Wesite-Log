@@ -30,4 +30,4 @@ Find the site at [meyerempire.co](https://meyerempire.co)
 ```
  <br />
 ## Contact <br />
-For any questions, contact official@meyerempire.co  <br />
+For any questions, contact [official@meyerempire.co](https://gmail.com)
