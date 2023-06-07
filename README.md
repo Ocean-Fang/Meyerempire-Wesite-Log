@@ -4,8 +4,8 @@ Find the site at [meyerempire.co](https://meyerempire.co)
 
 #Repository Structure <br />
 assets/ <br />
-#  css/ <br />
-## base/ -- defaults* <br />
+- css/ <br />
+    - base/ -- defaults* <br />
 ## fonts/ -- defaults* <br />
 ## layouts/ -- defaults* <br />
 ## modules/ -- defaults* <br />
