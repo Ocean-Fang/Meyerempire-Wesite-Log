@@ -2,7 +2,7 @@
 This repository contains all the files and resources related to the MeyerEmpire Consulting website.
 Find the site at [meyerempire.co](https://meyerempire.co)
 
-#Repository Structure <br />
+## Repository Structure <br />
 ```
 ├── assets
 │   ├── css/
@@ -29,5 +29,5 @@ Find the site at [meyerempire.co](https://meyerempire.co)
 *requires review, many unused files
 ```
  <br />
-#Contact <br />
+## Contact <br />
 For any questions, contact official@meyerempire.co  <br />
