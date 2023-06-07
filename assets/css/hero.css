@@ -1,0 +1,359 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(2,0,36);
+    background: black;
+    --purple: #683f75;
+    color: #FFFFFF;
+}
+
+.p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    
+    white-space: nowrap;
+}
+.nav>ul{
+    display: flex;
+    gap: 0px;
+    padding: 0px;
+    outline: 3px solid var(--purple);
+    border-radius: 2px;
+    background:rgb(26,26,26);
+}
+
+.nav>ul>li {
+    list-style-type: none;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 64px;
+    outline: 4px solid var(--purple);
+    border-radius: 4px;
+    background:rgb(26,26,26);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    max-width: 50vw;
+    gap: 16px;
+}
+
+img.photo{
+    outline: 0px solid black;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.name{
+    font-size: 1.5rem;
+    margin: 8px;
+}
+
+.creds{
+    font-size: .75rem;
+    margin: 0;
+}
+
+.heading{
+    color: #AFCBE0;
+    font-size: 4rem;
+    margin-top:100px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #d3d3d3;
+    color: black;
+    margin-top: 32px;
+    padding: 16px 64px;
+    border-radius: 8px;
+}
+
+.socials-title{
+    font-size: 1.25rem;
+}
+
+.email-title{
+    font-size: .75rem;
+}
+
+.linkedin{
+    max-width: 50px;
+}
+
+.github{
+    max-width: 50px;
+}
+
+.medium{
+    max-width: 50px;
+}
+
+.what.active{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background:rgb(147, 140, 192);
+    color: black;
+    margin-top: 32px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: flex-start;
+    height: fit-content;
+    overflow: hidden;
+    padding: 16px 8px;;
+}
+
+.what{
+    padding: 0px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    overflow-y: auto;
+    background:rgb(147, 140, 192);
+}
+
+.what-title{
+    font-size: 1.25rem;
+    overflow: hidden;
+}
+
+.what-info{
+    outline: 1px soild var(--purple);
+    border-radius: 1px;
+    padding: 8px;
+    font-size: 1.1rem;
+    transition: .2ms;
+    overflow: hidden;
+    text-align: left;
+    background:rgb(147, 140, 192);
+}
+
+
+.about-info{
+    outline: 3px solid var(--purple);
+    border-radius: 1px;
+    padding: 16px;
+    font-size: 1.1rem;
+    transition: .2ms;
+}
+
+.about-heading{
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding-left: 16px;
+}
+
+.active{
+    background-color: gray;
+}
+
+li.select:hover{
+    background-color: gray;
+    transition: .5s;
+}
+
+li.select{
+    padding: 8px;
+    font-size: 1rem;
+    transition: .5s;
+    cursor: pointer;
+    border-left: 1px solid var(--purple);
+    border-right: 1px solid var(--purple);
+}
+
+
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* WebKit-based browsers */
+}
+
+.accordion .contentB .content::-webkit-scrollbar{
+    display:initial;
+    border-radius: 10px;
+    color:#c1a3e4;
+    width:10px;
+}
+.accordion .contentB .content::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.accordion .contentB .content::-webkit-scrollbar-thumb {
+    background-color: rgb(147, 140, 192);
+    border-radius: 10px;
+}
+
+  /* Customize scrollbar thumb on hover */
+.accordion .contentB .content::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(92, 88, 121);
+}
+
+.accordion {
+    display: flex;
+    min-height: 25vh;
+    width: 50vw;
+    background:transparent;
+}
+.accordion.active {
+    background: rgb(255, 255, 255);
+}
+
+.accordion .contentB {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.accordion .contentB .label {
+    position: relative;
+    padding: 12px;
+    background: #c1a3e4;
+    color: #1A1A1A;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+.accordion .contentB.active .label {
+    position: relative;
+    padding: 12px;
+    background: #c1a3e4;
+    color: #1A1A1A;
+    cursor: pointer;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+}
+
+.accordion .contentB .label::before {
+    content: '+';
+    position: absolute;
+    top: 60%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+
+}
+
+.accordion .contentB.active .label::before {
+    content: '-';
+    font-size: 1.5em;
+
+}
+
+.accordion .contentB .content {
+    position: relative;
+    padding: 0px;
+    background: #f8e7ff;
+    height: 0;
+    color: #1A1A1A;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentB.active .content {
+    height: 400px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 9999; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); 
+}
+.logo img {
+    height: 55px; 
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    position:relative;
+    display: block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    right:30px;
+}
+
+nav ul li a:hover {
+    color: rgb(147, 140, 192);
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
