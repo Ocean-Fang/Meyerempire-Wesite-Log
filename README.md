@@ -4,28 +4,29 @@ Find the site at [meyerempire.co](https://meyerempire.co)
 
 #Repository Structure <br />
 ```
-assets/ <br />
-- css/ <br />
-    - base/ -- defaults* <br />
-    - fonts/ -- defaults* <br />
-    - layouts/ -- defaults* <br />
-    - modules/ -- defaults* <br />
-    - hero.css -- Styling for Team Page <br />
-    - main.css -- Syling for Main Page <br />
-    - main.sass -- sass imports for Main Page <br />
-- img/ <br />
-    - one/ -- General images for site use <br />
-    - ourworks/ -- Folder for slider on Our Works section of the Main Page <br />
-    - ... -- Misc. images for testing or require organization  <br />
-- js/ <br />
-    - vendor/ -- Imports for js scipts <br />
-    - functions-min.js -- minified JavaScript code for Main Page <br />
-    - functions.js -- Javascript for Main Page <br />
-    - hero.js -- Javascript for Team Page <br />
-    - ... -- Misc. images for testing or require organization  <br />
-index.html -- html for Main Page <br />
-team.html -- html for Team Page <br />
-README.md  <br />
+├── assets
+│   ├── css/
+│   │   ├── base/ -- defaults*
+│   │   ├── fonts/ -- defaults*
+│   │   ├── layouts/ -- defaults*
+│   │   ├── modules/ -- defaults*
+│   │   ├── hero.css -- Styling for Team Page
+│   │   ├── main.css -- Syling for Main Page
+│   │   └── main.sass -- sass imports for Main Page
+│   ├── img/
+│   │   ├── one/ -- General images for site use
+│   │   ├── ourworks/ -- Folder for slider on Our Works section of the Main Page
+│   │   └── ... -- Misc. images for testing or require organization
+│   └── js/
+│       ├── vendor/ -- Imports for js scipt
+│       ├── functions-min.js -- minified JavaScript code for Main Page
+│       ├── functions.js -- Javascript for Main Page
+│       └── hero.js -- Javascript for Team Page
+├── index.html -- html for Main Page
+├── team.html -- html for Team Page
+└── README.md
+
+*requires review, many unused files
 ```
  <br />
 #Contact <br />
