@@ -1,6 +1,6 @@
 # Meyerempire Wesite Log
 This repository contains all the files and resources related to the MeyerEmpire Consulting website.
-Find the site at [meyerempire.co]
+Find the site at [meyerempire.co](https://meyerempire.co)
 
 ## Repository Structure <br />
 ```
@@ -28,6 +28,5 @@ Find the site at [meyerempire.co]
 
 *requires review, many unused files
 ```
- <br />
 ## Contact <br />
-For any questions, contact [official@meyerempire.co](https://gmail.com)
+For any questions, contact [official@meyerempire.co](mailto:official@meyerempire.co)
