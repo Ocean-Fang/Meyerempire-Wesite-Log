@@ -3,6 +3,7 @@ This repository contains all the files and resources related to the MeyerEmpire 
 Find the site at [meyerempire.co](https://meyerempire.co)
 
 #Repository Structure <br />
+```
 assets/ <br />
 - css/ <br />
     - base/ -- defaults* <br />
@@ -25,6 +26,7 @@ assets/ <br />
 index.html -- html for Main Page <br />
 team.html -- html for Team Page <br />
 README.md  <br />
+```
  <br />
 #Contact <br />
 For any questions, contact official@meyerempire.co  <br />
