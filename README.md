@@ -2,10 +2,10 @@
 This repository contains all the files and resources related to the MeyerEmpire Consulting website.
 Find the site at [meyerempire.co](https://meyerempire.co)
 
-#Repository Structure
-assets/
-  css/
-    base/ -- defaults*
+#Repository Structure <br />
+assets/ <br />
+  css/ <br />
+    base/ -- defaults* <br />
     fonts/ -- defaults*
     layouts/ -- defaults*
     modules/ -- defaults*
